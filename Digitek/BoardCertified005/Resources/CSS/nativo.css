@@ -1,0 +1,57 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+
+.headBanner {
+    color: white;
+    background-image: url("../img/banner01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+    .headBanner small {
+        font-size: 0.7em;
+        text-transform: uppercase;
+    }
+    .headBanner small a {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .headBanner small a:hover {
+        color: #000;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .headBanner h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    .headBanner p {
+        font-size: 0.9em;
+    }
+
+.overHead {
+    background-color: rgba(62, 73, 147, 0.74);
+    height: 50vh;
+}
+
+@media (max-width: 720px)
+{
+    .headBanner {
+        min-height: 50vh;
+        display: table;
+    }
+    .overHead {
+        min-height: 50vh;
+        display: table;
+    }
+
+}
