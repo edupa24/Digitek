@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="BoardCertified005\boardCertified005.html" />
     <Content Include="BoardCertified005\Resources\CSS\nativo.css" />
+    <Content Include="BoardCertified005\Resources\img\AAOPM_logo.png" />
     <Content Include="BoardCertified005\Resources\img\banner01.jpg" />
+    <Content Include="BoardCertified005\Resources\img\certificate01.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
